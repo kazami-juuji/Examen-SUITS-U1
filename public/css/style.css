@@ -1,0 +1,92 @@
+/* Estilo del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background: url('https://wallpapers.com/images/hd/hd-abstract-neon-s1vuc1mxb3s2pdrc.jpg');
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilo del contenedor del formulario */
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(255, 254, 254);
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Estilo del título principal */
+h1 {
+    color: #ffffff; /* Color oscuro para mejor contraste con el fondo blanco */
+    text-align: center; /* Centra el texto */
+    margin-bottom: 20px; /* Espacio debajo del título para separar del formulario */
+    font-size: 28px; /* Tamaño de fuente adecuado para el título principal */
+    font-weight: bold; /* Negrita para destacar el título */
+}
+
+/* Estilo del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo de las etiquetas */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 16px; /* Tamaño de fuente adecuado para las etiquetas */
+    color: #ffffff; /* Color gris oscuro para las etiquetas */
+}
+
+/* Estilo de los campos de entrada */
+input, select {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to bottom right, rgb(0, 42, 148), rgb(127, 41, 55));
+    color: #ffffff;
+    border-radius: 4px;
+    margin-bottom: 15px; /* Espacio entre los campos */
+    font-size: 16px; /* Tamaño de fuente adecuado para la entrada de texto */
+}
+
+
+/* Estilo del botón */
+button {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,119,1) 35%, rgba(0,212,255,1) 100%);
+    color: #ffffff; /* Color del texto en el botón */
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s ease; /* Transición suave para el hover */
+}
+
+
+/* Estilo del resultado */
+h2 {
+    margin-top: 30px; /* Espacio arriba del título del resultado */
+    color: #ffffff; /* Color oscuro para el título del resultado */
+    text-align: center; /* Centra el texto */
+    font-size: 22px; /* Tamaño de fuente adecuado para el título del resultado */
+    font-weight: bold; /* Negrita para destacar el título */
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff; /* Color oscuro para el texto del resultado */
+}
